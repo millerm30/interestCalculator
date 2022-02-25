@@ -1,0 +1,13 @@
+body {background-color:black; font-family: arial; color:white}
+h1{color:grey; font-family: verdana; font-size: 25px; text-align: center;}
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    align-content: center;
+}
+footer {text-align: center;}
+
+
