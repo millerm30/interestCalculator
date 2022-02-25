@@ -1,5 +1,24 @@
-body {background-color:black; font-family: arial; color:white}
-h1{color:grey; font-family: verdana; font-size: 25px; text-align: center;}
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color:#c4c4c4; 
+    font-family: arial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1  {
+    color:grey; 
+    font-family: verdana; 
+    font-size: 25px; 
+    text-align: center;
+}
+
 .maindiv {
     background-color: white;
     color: black;
@@ -8,6 +27,15 @@ h1{color:grey; font-family: verdana; font-size: 25px; text-align: center;}
     border-radius: 25px;
     align-content: center;
 }
-footer {text-align: center;}
+
+.btnSubmit {
+    border: 2px solid #c4c4c4;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+}
 
 
