@@ -18,11 +18,10 @@ function compute()
 // Function determines interest earned an enters text under id=result
 {
     const principal = parseFloat(document.getElementById("principal").value, 10);
-    //    var rate = parseFloat(document.getElementById("rate").value,10);
     const rate = parseFloat(document.getElementById("enteredrate").value, 10);
     const years = parseFloat(document.getElementById("years").value, 10);
     const interest = principal * years * rate / 100;
     const currentYear = new Date().getFullYear();
     const finalYear = currentYear + years;
-    document.getElementById("result").innerHTML = "<br />If you deposit <mark>" + principal + "</mark>,<br /> at an interest rate of <mark>" + rate + "%</mark>.<br />You will receive an amount of <mark>" + interest + "</mark><br />in the year <mark>" + finalYear + "</mark>";
+    document.getElementById("result").innerHTML = "<br />If you deposit $<mark>" + principal + ".00" + "</mark>, at an interest rate of <mark>" + rate + "%</mark>.<br />You will receive an amount of $<mark>" + interest + ".00" + "</mark> in the year <mark>" + finalYear + "</mark>";
 }
