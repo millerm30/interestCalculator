@@ -1,0 +1,26 @@
+{
+  "name": "interestcalculator",
+  "version": "1.0.0",
+  "description": "Interest Calculator",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millerm30/interestCalculator.git"
+  },
+  "keywords": [
+    "Interest",
+    "Calculator"
+  ],
+  "author": "Michael Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millerm30/interestCalculator/issues"
+  },
+  "homepage": "https://millerm30.github.io/interestCalculator/",
+  "dependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
